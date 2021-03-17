@@ -16,6 +16,10 @@ Test with Postman
 Implementation and test
 ![](img/swagger.JPG)
 
+* Mocha & Chai 
+Test with Mocha & Chai 
+![](img/testone.JPG)
+
 
 ## Usage
 ```
