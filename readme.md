@@ -9,16 +9,20 @@
 
 ## Test with
 * Postman
-Test with Postman
+> Test with Postman
 ![](img/postman.JPG)
 
 * Swagger
-Implementation and test
+> Implementation and test
 ![](img/swagger.JPG)
 
 * Mocha & Chai 
-Test with Mocha & Chai 
+> Test with Mocha & Chai 
 ![](img/testone.JPG)
+
+* Test DB 
+> with Mocha & Chai 
+![](img/testDB.JPG)
 
 
 ## Usage
