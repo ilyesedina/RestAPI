@@ -4,12 +4,12 @@
   "description": "MongoDB-Express-NodeJS RESTful API",
   "main": "server.js",
   "scripts": {
-    "start-dev": "nodemon server.js",
+    "start-dev": "cross-env NODE_ENV=development nodemon server.js",
     "test": "cross-env NODE_ENV=test mocha --exit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ilyesedina/RestAPIclass.git"
+    "url": "git+https://github.com/ilyesedina/RestAPI.git"
   },
   "keywords": [
     "restapi"
@@ -17,13 +17,14 @@
   "author": "Edina Ilyes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ilyesedina/RestAPIclass/issues"
+    "url": "https://github.com/ilyesedina/RestAPI/issues"
   },
-  "homepage": "https://github.com/ilyesedina/RestAPIclass#readme",
+  "homepage": "https://github.com/ilyesedina/RestAPI#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
     "dotenv-flow": "^3.2.0",
     "express": "^4.17.1",
     "joi": "^17.4.0",
