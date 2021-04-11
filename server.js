@@ -41,6 +41,9 @@ app.get("/api/welcome", (req,res) => {
 app.use("/api/user", authRoutes); //authentication routes (register, login)
 app.use("/api/products", productRoutes); //CRUD routes
 
+// setup and connect to our DB
+console.log(process.env.DBHOST);
+
 //start up server
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, function () {
