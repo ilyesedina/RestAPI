@@ -1,5 +1,5 @@
 # Building a REST API with MEN
-> CRUD API that also has authentication bilt in (without frontend).
+> CRUD API that also has authentication built-in (without frontend).
 
 ## Database - NoSQL
 * MongoDB Atlas
